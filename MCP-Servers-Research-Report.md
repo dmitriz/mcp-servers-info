@@ -32,7 +32,7 @@ This comprehensive report analyzes MCP (Model Context Protocol) servers in VS Co
 
 ## 🎯 Quick Guide: Finding Approval Settings
 
-### Step-by-Step Location Guide:
+### Step-by-Step Location Guide
 
 #### 1. **Enable MCP Support**
 ```
