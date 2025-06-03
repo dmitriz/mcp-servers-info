@@ -18,8 +18,11 @@ This repository serves as a centralized hub for researching, documenting, and an
 
 - **[MCP Servers Research Report](./MCP-Servers-Research-Report.md)** - Comprehensive analysis of MCP architecture, security, and VS Code integration
 - **[Complete Server Catalog](./complete-server-catalog.md)** - Detailed catalog of 250+ available MCP servers with installation guides
+- **[MCP Research Update 2025](./mcp-research-update-2025.md)** - Latest developments, research-oriented tools, and automation capabilities
+- **[Research Starter Pack](./research-starter-pack.md)** - Quick start guide for researchers and knowledge workers
 - **[Available MCP Tools](./available-mcp-tools.md)** - Documentation of currently installed tools and commands in this workspace
 - **[Tool Comparison Analysis](./tool-comparison-analysis.md)** - Comparative study of different research tools (Perplexity, Brave Search, Fetch)
+- **[Future Plans](./future-plans.md)** - Roadmap and planned improvements for this research repository
 
 ### 🔑 Key Discoveries
 
