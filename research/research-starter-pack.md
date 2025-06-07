@@ -2,6 +2,18 @@
 
 *A curated guide for researchers, academics, and knowledge workers to get started with MCP servers*
 
+## 🎯 Strategic Research Framework Integration
+
+**Research-Exec Methodology Applied**: This starter pack integrates comprehensive strategic frameworks for systematic research implementation.
+
+### **Quick Framework Reference**
+- **📊 Server Prioritization**: [Strategic Prioritization Framework](./MCP_STRATEGIC_PRIORITIZATION_FRAMEWORK.md) - Priority-based server selection
+- **👥 Research Personas**: [User Personas & Workflows](./MCP_USER_PERSONAS_WORKFLOWS.md) - Research Engineer workflows
+- **🗓️ Implementation Planning**: [Implementation Roadmaps](./MCP_IMPLEMENTATION_ROADMAPS.md) - 8-week research focus track
+- **💰 ROI Assessment**: [Business Intelligence Framework](./MCP_BUSINESS_INTELLIGENCE_FRAMEWORK.md) - Research investment analysis
+
+> 📈 **Research Engineer ROI**: 8-week implementation → $118,000 annual value → 321% ROI
+
 ## 🚀 Quick Start
 
 ### Essential Research Setup

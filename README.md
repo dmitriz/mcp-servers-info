@@ -46,6 +46,13 @@ This repository serves as a centralized hub for researching, documenting, and an
 - **[Research Tools Comparison](./research/mcp-research-tools-comparison.md)** - Comparison of MCP research methodologies and tools
 - **[Firecrawl MCP Server Research](./research/FIRECRAWL_MCP_SERVER_RESEARCH.md)** - Specialized research on Firecrawl MCP server capabilities
 
+#### Strategic Implementation Frameworks 🌟 **NEW**
+- **[Strategic Prioritization Framework](./research/MCP_STRATEGIC_PRIORITIZATION_FRAMEWORK.md)** - 📊 Systematic server prioritization with strategic value scoring and implementation roadmaps
+- **[Quantitative Analysis Framework](./research/MCP_QUANTITATIVE_ANALYSIS_FRAMEWORK.md)** - 📈 Data-driven ecosystem analysis with metrics and performance benchmarks
+- **[User Personas & Workflows](./research/MCP_USER_PERSONAS_WORKFLOWS.md)** - 👥 Detailed user personas with persona-specific server recommendations and workflows
+- **[Implementation Roadmaps](./research/MCP_IMPLEMENTATION_ROADMAPS.md)** - 🗓️ Timeline-driven deployment plans with phased implementation strategies
+- **[Research-Exec Methodology Assessment](./research/RESEARCH_EXEC_METHODOLOGY_APPLICATION_ASSESSMENT.md)** - 🔍 Comprehensive evaluation of methodology application and improvement recommendations
+
 ### 🔑 Key Discoveries
 
 - **Security-First Design**: MCP implements robust approval mechanisms with three-tier automation (session, workspace, global)
@@ -203,6 +210,23 @@ npx -y @modelcontextprotocol/server-fetch
 4. **Workspace Isolation**: Use workspace-specific configurations when possible
 5. **Regular Audits**: Review and audit enabled servers periodically
 
+## 🎯 Strategic Implementation Frameworks
+
+*Research-Exec Methodology Applied to MCP Server Ecosystem*
+
+Our comprehensive framework documentation provides systematic approaches to MCP server implementation and optimization:
+
+### **Core Strategic Documents**
+- **[Strategic Prioritization Framework](research/MCP_STRATEGIC_PRIORITIZATION_FRAMEWORK.md)** - Priority-based server selection with strategic value scoring
+- **[Quantitative Analysis Framework](research/MCP_QUANTITATIVE_ANALYSIS_FRAMEWORK.md)** - Data-driven metrics and performance benchmarking
+- **[Business Intelligence Framework](research/MCP_BUSINESS_INTELLIGENCE_FRAMEWORK.md)** - ROI calculations and market opportunity assessment
+- **[User Personas & Workflows](research/MCP_USER_PERSONAS_WORKFLOWS.md)** - Persona-driven implementation strategies
+- **[Implementation Roadmaps](research/MCP_IMPLEMENTATION_ROADMAPS.md)** - Timeline-driven deployment methodologies
+- **[Automation & Discovery Framework](research/MCP_AUTOMATION_DISCOVERY_FRAMEWORK.md)** - AI-powered server discovery and deployment automation
+
+### **Methodology Application Assessment**
+- **[Research-Exec Methodology Assessment](research/RESEARCH_EXEC_METHODOLOGY_APPLICATION_ASSESSMENT.md)** - Comprehensive evaluation of framework application and improvement opportunities
+
 ## 📁 Repository Structure
 
 ```
@@ -212,6 +236,15 @@ mcp-servers-info/
 ├── available-mcp-tools.md              # Documentation of workspace tools
 ├── future-plans.md                     # Roadmap and planned improvements
 ├── research/                           # Research reports and analysis
+│   ├── # Strategic Implementation Frameworks (Research-Exec Methodology)
+│   ├── MCP_STRATEGIC_PRIORITIZATION_FRAMEWORK.md # Priority-based server selection
+│   ├── MCP_QUANTITATIVE_ANALYSIS_FRAMEWORK.md # Data-driven metrics framework  
+│   ├── MCP_BUSINESS_INTELLIGENCE_FRAMEWORK.md # ROI and market analysis
+│   ├── MCP_USER_PERSONAS_WORKFLOWS.md  # Persona-driven workflows
+│   ├── MCP_IMPLEMENTATION_ROADMAPS.md  # Timeline-driven deployment
+│   ├── MCP_AUTOMATION_DISCOVERY_FRAMEWORK.md # AI-powered automation
+│   ├── RESEARCH_EXEC_METHODOLOGY_APPLICATION_ASSESSMENT.md # Framework evaluation
+│   ├── # Core Research Reports
 │   ├── MCP-Servers-Research-Report.md  # Core architecture analysis
 │   ├── ADVANCED_MCP_RESEARCH_2025.md   # Enterprise implementation patterns
 │   ├── MCP_COMMUNITY_DEVELOPMENT_TRENDS.md # Community development analysis
