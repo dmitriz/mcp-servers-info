@@ -360,6 +360,90 @@
 - **Documentation:** GitHub integration setup in `MCP-Servers-Research-Report.md` official servers repository
 - **Usage Context:** Development team coordination as outlined in `ADVANCED_MCP_RESEARCH_2025.md`
 
+#### GitMCP - Comprehensive Git Operations Server
+- **Repository:** [idosal/git-mcp](https://github.com/idosal/git-mcp)
+- **Platform Category:** Advanced Git Operations & Repository Management
+- **Capabilities:** Free, open-source, remote MCP server for any GitHub project with anti-hallucination features
+- **Integration:** Direct GitHub project integration with advanced Git operations
+- **Key Features:**
+  - Eliminates code hallucinations through real-time repository access
+  - Remote MCP server architecture for seamless GitHub integration
+  - Comprehensive Git operations with intelligent context awareness
+  - Open-source with community-driven development
+- **Cross-References:** Anti-hallucination techniques in `research/ADVANCED_MCP_RESEARCH_2025.md`
+- **Documentation:** Remote server patterns in `research/mcp-research-update-2025.md`
+- **Usage Context:** Enhanced GitHub workflow automation as described in `research/git-mcp-server-comprehensive-test.md`
+
+#### Comprehensive Git MCP Server
+- **Repository:** [cyanheads/git-mcp-server](https://github.com/cyanheads/git-mcp-server)
+- **Platform Category:** Enterprise Git Operations & Workflow Management
+- **Capabilities:** Full-featured MCP server for LLMs and AI agents with comprehensive Git repository interaction
+- **Integration:** Advanced Git operations with worktree and tag management
+- **Key Features:**
+  - Complete Git operation suite: clone, commit, branch, diff, log, status
+  - Advanced operations: push, pull, merge, rebase, worktree management
+  - Tag management and branch operations
+  - Enterprise-grade repository interaction for AI agents
+- **Cross-References:** Git workflow automation in `research/git-mcp-server-comprehensive-test.md`
+- **Documentation:** Comprehensive testing results in `research/mcp-server-testing-results-2025.md`
+- **Usage Context:** AI agent Git interactions as outlined in `research/ADVANCED_MCP_RESEARCH_2025.md`
+
+#### Git Repository Ingest Server
+- **Repository:** [adhikasp/mcp-git-ingest](https://github.com/adhikasp/mcp-git-ingest)
+- **Platform Category:** Repository Structure Analysis & Content Discovery
+- **Capabilities:** Specialized MCP server for reading GitHub repository structure and important files
+- **Integration:** GitHub API integration with intelligent file discovery
+- **Key Features:**
+  - Repository structure mapping and analysis
+  - Important file identification and content extraction
+  - GitHub repository metadata processing
+  - Intelligent content discovery for documentation and code analysis
+- **Cross-References:** Repository analysis patterns in `research/MCP-Servers-Research-Report.md`
+- **Documentation:** Content discovery methodologies in `research/tool-comparison-analysis.md`
+- **Usage Context:** Repository research workflows described in `research/research-starter-pack.md`
+
+#### GitHub Issues MCP Server
+- **Repository:** [sammcj/mcp-github-issue](https://github.com/sammcj/mcp-github-issue)
+- **Platform Category:** GitHub Issue Management & Task Automation
+- **Capabilities:** Provides LLMs with the ability to use GitHub issues as tasks and project management tools
+- **Integration:** GitHub Issues API with advanced task management features
+- **Key Features:**
+  - GitHub issues as AI-manageable tasks
+  - Automated issue creation and management
+  - Project workflow integration through issues
+  - LLM-driven issue tracking and resolution
+- **Cross-References:** Project management automation in `research/MCP_COMMUNITY_DEVELOPMENT_TRENDS.md`
+- **Documentation:** Issue-driven development in `research/ADVANCED_MCP_RESEARCH_2025.md`
+- **Usage Context:** Automated project management workflows in `future-plans.md`
+
+#### GitHub Actions MCP Server
+- **Repository:** [ko1ynnky/github-actions-mcp-server](https://github.com/ko1ynnky/github-actions-mcp-server)
+- **Platform Category:** CI/CD Automation & GitHub Actions Integration
+- **Capabilities:** Model Context Protocol server for GitHub Actions workflow management and automation
+- **Integration:** GitHub Actions API with workflow orchestration capabilities
+- **Key Features:**
+  - GitHub Actions workflow management through MCP
+  - CI/CD pipeline automation and monitoring
+  - Workflow trigger and status management
+  - Integration with GitHub ecosystem for automated deployments
+- **Cross-References:** CI/CD automation patterns in `research/ADVANCED_MCP_RESEARCH_2025.md`
+- **Documentation:** GitHub Actions integration in `research/mcp-research-update-2025.md`
+- **Usage Context:** Automated development workflows in `research/research-starter-pack.md`
+
+#### GitHub Project Manager MCP Server
+- **Repository:** [kunwarVivek/mcp-github-project-manager](https://github.com/kunwarVivek/mcp-github-project-manager)
+- **Platform Category:** GitHub Project Management & Collaboration
+- **Capabilities:** MCP server to manage GitHub project functionality with comprehensive project coordination
+- **Integration:** GitHub Projects API with advanced project management features
+- **Key Features:**
+  - GitHub Projects integration and management
+  - Project board automation and coordination
+  - Milestone and release management
+  - Team collaboration workflow optimization
+- **Cross-References:** Project coordination patterns in `research/MCP_COMMUNITY_DEVELOPMENT_TRENDS.md`
+- **Documentation:** Project management workflows in `research/research-starter-pack.md`
+- **Usage Context:** Collaborative development coordination in `research/ADVANCED_MCP_RESEARCH_2025.md`
+
 #### GitLab DevOps Platform
 - **Platform Category:** Comprehensive DevOps Integration
 - **Capabilities:** Project management, CI/CD pipeline automation, code collaboration
@@ -372,6 +456,34 @@
 - **Cross-References:** DevOps automation patterns in `ADVANCED_MCP_RESEARCH_2025.md` enterprise deployment section
 - **Documentation:** GitLab configuration guide in `complete-server-catalog.md` development tools
 - **Usage Context:** Enterprise development workflows described in `MCP_COMMUNITY_DEVELOPMENT_TRENDS.md`
+
+#### Enhanced GitLab MCP Server
+- **Repository:** [yoda-digital/mcp-gitlab-server](https://github.com/yoda-digital/mcp-gitlab-server)
+- **Platform Category:** Enhanced GitLab Integration & DevOps Automation
+- **Capabilities:** Enhanced MCP server for GitLab with advanced DevOps workflow management
+- **Integration:** GitLab API with comprehensive project and pipeline management
+- **Key Features:**
+  - Enhanced GitLab project management capabilities
+  - Advanced CI/CD pipeline integration and monitoring
+  - Merge request automation and code review workflows
+  - GitLab ecosystem optimization for AI-driven development
+- **Cross-References:** GitLab automation patterns in `research/ADVANCED_MCP_RESEARCH_2025.md`
+- **Documentation:** Enhanced DevOps workflows in `research/mcp-research-update-2025.md`
+- **Usage Context:** Advanced GitLab integration described in `research/MCP_COMMUNITY_DEVELOPMENT_TRENDS.md`
+
+#### Gitee Platform MCP Server
+- **Repository:** [oschina/mcp-gitee](https://github.com/oschina/mcp-gitee)
+- **Platform Category:** Gitee Platform Integration & Chinese Git Ecosystem
+- **Capabilities:** MCP server implementation for Gitee platform with Chinese Git ecosystem support
+- **Integration:** Gitee API with localized development workflow features
+- **Key Features:**
+  - Gitee platform native integration
+  - Chinese development ecosystem support
+  - Repository management with regional optimization
+  - Localized CI/CD and collaboration features
+- **Cross-References:** International platform support in `research/MCP_COMMUNITY_DEVELOPMENT_TRENDS.md`
+- **Documentation:** Regional platform integration in `research/mcp-research-update-2025.md`
+- **Usage Context:** Global development workflow patterns in `research/ADVANCED_MCP_RESEARCH_2025.md`
 
 #### CircleCI Continuous Integration Platform
 - **Platform Category:** CI/CD Automation

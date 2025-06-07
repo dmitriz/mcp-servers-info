@@ -221,7 +221,8 @@ mcp-servers-info/
 │   ├── mcp-server-registries-analysis.md # Registry platforms analysis
 │   ├── mcp-research-tools-comparison.md # Research methodology comparison
 │   ├── RESEARCH_ANALYSIS.md            # Research methodology documentation
-│   └── FIRECRAWL_MCP_SERVER_RESEARCH.md # Specialized Firecrawl research
+│   ├── FIRECRAWL_MCP_SERVER_RESEARCH.md # Specialized Firecrawl research
+│   └── advanced-git-mcp-servers-analysis.md # Advanced Git/GitHub MCP servers research
 ├── .github/                            # GitHub configuration
 │   └── copilot-instructions.md         # AI assistant instructions
 └── [Additional files and directories]
