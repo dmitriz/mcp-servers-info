@@ -113,9 +113,9 @@
 ### Market Opportunity Indicators
 
 #### Adoption Velocity Metrics
-- **Rapid Adoption** (> 100 implementations/month): Core reference servers
-- **Steady Adoption** (10-100 implementations/month): Popular integrations
-- **Niche Adoption** (< 10 implementations/month): Specialized servers
+- **Rapid Adoption** (High implementation scale): Core reference servers
+- **Steady Adoption** (Moderate implementation scale): Popular integrations
+- **Niche Adoption** (Specialized implementation scale): Specialized servers
 - **Emerging Adoption**: New or experimental servers
 
 #### Community Growth Patterns
