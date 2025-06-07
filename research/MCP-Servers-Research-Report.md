@@ -34,12 +34,12 @@ This comprehensive report analyzes MCP (Model Context Protocol) servers in VS Co
 
 ### Step-by-Step Location Guide
 
-#### 1. **Enable MCP Support**
+#### **Enable MCP Support**
 ```
 File → Preferences → Settings → Search "chat.mcp.enabled" → Enable
 ```
 
-#### 2. **Access Approval Controls During Tool Execution**
+#### **Access Approval Controls During Tool Execution**
 ```
 1. Open Chat view: Ctrl+Alt+I (Windows/Linux) or ⌃⌘I (Mac)
 2. Select "Agent mode" from dropdown
@@ -47,22 +47,22 @@ File → Preferences → Settings → Search "chat.mcp.enabled" → Enable
 4. When tool is invoked → "Continue" button dropdown appears
 ```
 
-#### 3. **Approval Automation Options** (in Continue button dropdown)
+#### **Approval Automation Options** (in Continue button dropdown)
 - **"Continue for this session"** - Auto-approve until VS Code restart
 - **"Continue for this workspace"** - Auto-approve for current project only  
 - **"Continue for all future invocations"** - Global auto-approval
 
-#### 4. **Manage Configured Servers**
+#### **Manage Configured Servers**
 ```
 Command Palette (Ctrl+Shift+P) → Type "MCP: List Servers"
 ```
 
-#### 5. **Advanced Control via Configuration**
+#### **Advanced Control via Configuration**
 - **Workspace**: Create `.vscode/mcp.json` file
 - **Global**: Add to `settings.json` under "mcp" section
 - **Instructions**: Use `.github/copilot-instructions.md` for fine-tuning
 
-#### 6. **Enterprise/Organizational Settings**
+#### **Enterprise/Organizational Settings**
 ```
 Centrally manage via VS Code enterprise documentation
 Setting: chat.mcp.enabled (can be controlled organizationally)
@@ -287,6 +287,166 @@ Extensive ecosystem including official integrations from companies like:
 - Docker containers should **not** use detached mode (-d option)
 - Environment variables and .env files supported for secure credential management
 - Server logs available for troubleshooting via "Show Output" option
+
+## 🚀 MCP Server Installation & Discovery Guide
+
+### Summary of 4sysops Article (Link Access Restricted)
+*Note: The original article at https://4sysops.com/archives/install-an-mcp-server-for-github-copilot-in-vs-code/ could not be accessed due to access restrictions.*
+
+### 🔍 MCP Server Discovery in AI Coding Agents
+
+#### **Cline (Claude Dev)**
+**Repository:** https://github.com/cline/cline  
+**Marketplace:** https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev
+
+**Key MCP Features in Cline:**
+- **Custom Tool Creation**: Cline can create and install MCP servers on demand
+  - Just ask: "add a tool that fetches Jira tickets"
+  - Cline handles everything from server creation to installation
+  - Custom tools become part of Cline's permanent toolkit
+
+- **Built-in MCP Integration**: 
+  - Supports Model Context Protocol for extending capabilities
+  - Can create tailored MCP servers for specific workflows
+  - Examples: AWS EC2 management, PagerDuty incident fetching, Jira integration
+
+- **Dynamic Tool Installation**:
+  ```
+  User Request: "add a tool that manages AWS EC2s"
+  Cline Response: Creates custom MCP server → Installs it → Ready to use
+  ```
+
+#### **Roo Code (Formerly Roo Cline)**
+**Repository:** https://github.com/RooCodeInc/Roo-Code  
+**Documentation:** https://docs.roocode.com/  
+**Website:** https://roocode.com
+
+**Enhanced MCP Capabilities:**
+- **Unlimited Custom Tools**: MCP provides framework to expand functionality
+- **External API Integration**: Connect to databases, APIs, and specialized tools
+- **Multi-Agent Architecture**: Different modes (Code, Architect, Debug) can leverage MCP tools
+- **Custom Mode Support**: Create specialized personas that utilize specific MCP servers
+
+**Roo Code MCP Discovery Process:**
+1. **Automatic Detection**: Discovers available MCP servers in workspace
+2. **Custom Mode Integration**: Different agent modes can access specific tool sets
+3. **API Integration**: Seamless connection to external services via MCP protocol
+
+### 📦 MCP Server Installation Methods
+
+#### **Method 1: VS Code Native (Official)**
+```json
+// .vscode/mcp.json
+{
+  "servers": {
+    "github": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"]
+    }
+  }
+}
+```
+
+#### **Method 2: Command Line Installation**
+```bash
+# Add via CLI
+code --add-mcp '{"name":"fetch-server","command":"uvx","args":["mcp-server-fetch"]}'
+```
+
+#### **Method 3: URL Handler Installation**
+```javascript
+// Programmatic installation
+const link = `vscode:mcp/install?${encodeURIComponent(JSON.stringify(obj))}`;
+```
+
+#### **Method 4: Auto-Discovery (Claude Desktop Integration)**
+- Enable `chat.mcp.discovery.enabled` setting
+- Automatically detects servers from Claude Desktop configuration
+- Reuses existing MCP server configurations
+
+### 🛠️ Popular MCP Servers for Installation
+
+#### **Essential Development Servers**
+- **GitHub**: Repository management and API integration
+- **Filesystem**: Secure file operations with access controls  
+- **Fetch**: Web content retrieval and conversion
+- **Memory**: Knowledge graph-based persistent memory
+- **Sequential Thinking**: Dynamic problem-solving workflows
+
+#### **Database & Infrastructure**
+- **PostgreSQL**: Database querying and schema inspection
+- **SQLite**: Local database interactions
+- **Redis**: Key-value store operations
+- **AWS**: Cloud service management
+- **Docker**: Container operations
+
+#### **Productivity Tools**
+- **Slack**: Team communication and channel management
+- **Jira**: Issue tracking and project management
+- **Google Drive**: File access and search
+- **Puppeteer**: Browser automation and web scraping
+
+### 🔄 MCP Server Discovery Workflow
+
+#### **In Cline:**
+1. **User Request**: "I need to integrate with [service]"
+2. **Cline Analysis**: Determines if existing MCP server available
+3. **Auto-Installation**: Downloads and configures appropriate server
+4. **Custom Creation**: If no server exists, creates custom MCP server
+5. **Integration**: Tool becomes available for immediate use
+
+#### **In Roo Code:**
+1. **Mode Selection**: Choose appropriate agent mode (Code, Architect, etc.)
+2. **Tool Discovery**: System scans for available MCP servers
+3. **Context-Aware Loading**: Loads relevant tools based on project type
+4. **Custom Integration**: Users can configure specific tools per mode
+5. **Persistent Access**: Tools remain available across sessions
+
+### 📚 Additional MCP Resources & Links
+
+#### **Official Documentation**
+- **MCP Specification**: https://spec.modelcontextprotocol.io/
+- **Official Servers Repository**: https://github.com/modelcontextprotocol/servers
+- **Anthropic MCP Announcement**: https://www.anthropic.com/news/model-context-protocol
+
+#### **SDKs and Development**
+- **TypeScript SDK**: https://github.com/modelcontextprotocol/typescript-sdk
+- **Python SDK**: https://github.com/modelcontextprotocol/python-sdk
+- **Java SDK**: https://github.com/modelcontextprotocol/java-sdk
+- **C# SDK**: https://github.com/modelcontextprotocol/csharp-sdk
+
+#### **Community Resources**
+- **MCP Workshop (2hr Video)**: Available on ModelContextProtocol.io
+- **Building MCP with LLMs Tutorial**: Step-by-step development guide
+- **MCP Inspector**: Interactive debugging tool for testing servers
+- **Community Server Gallery**: Growing ecosystem of third-party servers
+
+#### **AI Agent Integration**
+- **Cline Documentation**: Available in VS Code marketplace
+- **Roo Code Docs**: https://docs.roocode.com/
+- **Discord Communities**: Active support for both Cline and Roo Code
+- **GitHub Discussions**: MCP specification and development discussions
+
+### 🎯 Best Practices for MCP Server Discovery
+
+#### **Security Considerations**
+- Only install servers from trusted sources
+- Review server code before installation when possible
+- Use input variables for sensitive credentials
+- Enable logging for troubleshooting and audit trails
+
+#### **Performance Optimization**
+- Install only necessary servers to reduce overhead
+- Use workspace-specific configurations for team projects
+- Leverage auto-discovery for consistent development environments
+- Monitor server resource usage and performance
+
+#### **Development Workflow**
+- Start with official reference servers
+- Create custom servers for specific organizational needs
+- Document server configurations for team sharing
+- Use version control for MCP configuration files
 
 ---
 
