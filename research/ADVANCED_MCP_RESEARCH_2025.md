@@ -1,4 +1,4 @@
-# Advanced MCP Research: Enterprise Implementation & Performance Analysis 2025
+# Advanced MCP Research: Enterprise Implementation & Performance Analysis
 
 *Comprehensive analysis of cutting-edge MCP developments, performance optimization, and enterprise deployment patterns*
 
@@ -23,7 +23,7 @@ This advanced research document extends the existing MCP servers knowledge base 
 
 ---
 
-## 🔐 Enterprise Security Frameworks (2025 Updates)
+## 🔐 Enterprise Security Frameworks
 
 ### Windows 11 MCP Security Architecture
 
@@ -575,12 +575,35 @@ impl MCPServer {
 
 ### Performance Comparison Matrix
 
-| Implementation | Latency (p95) | Throughput | Memory Usage | CPU Usage | Scalability |
-|----------------|---------------|------------|--------------|-----------|-------------|
-| **STDIO Local** | 50ms | 100 req/s | 50MB | 5% | Single Process |
-| **HTTP/SSE** | 150ms | 1K req/s | 200MB | 15% | Horizontal |
-| **WebSocket** | 100ms | 800 req/s | 150MB | 12% | Moderate |
-| **WASM Edge** | 25ms | 2K req/s | 30MB | 8% | Global |
+### Performance Benchmarks by Implementation
+
+#### STDIO Local Implementation
+- **Latency (p95):** 50ms - Direct process communication
+- **Throughput:** 100 requests/second - Single process limitation
+- **Memory Usage:** 50MB - Minimal overhead
+- **CPU Usage:** 5% - Efficient local processing
+- **Scalability:** Single Process - Limited to one instance
+
+#### HTTP/SSE Implementation  
+- **Latency (p95):** 150ms - Network overhead included
+- **Throughput:** 1,000 requests/second - Load balancer supported
+- **Memory Usage:** 200MB - Connection pooling overhead
+- **CPU Usage:** 15% - Network processing load
+- **Scalability:** Horizontal - Multiple instances supported
+
+#### WebSocket Implementation
+- **Latency (p95):** 100ms - Persistent connection benefits
+- **Throughput:** 800 requests/second - Connection management overhead
+- **Memory Usage:** 150MB - Session state management
+- **CPU Usage:** 12% - Real-time communication processing
+- **Scalability:** Moderate - Limited by connection management
+
+#### WASM Edge Implementation
+- **Latency (p95):** 25ms - Near-native performance
+- **Throughput:** 2,000 requests/second - Optimized runtime
+- **Memory Usage:** 30MB - Efficient memory management
+- **CPU Usage:** 8% - Compiled performance benefits
+- **Scalability:** Global - Edge distribution supported
 
 ### Cost Analysis Framework
 

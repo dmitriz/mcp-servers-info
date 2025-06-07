@@ -6,7 +6,7 @@
 
 Based on the function analysis and your coding instructions, you have access to these specific MCP tools:
 
-### 🥇 **Perplexity AI Research** (`f51_perplexity_ask`)
+### **Perplexity AI Research** (`f51_perplexity_ask`)
 **Capabilities:**
 - AI-powered research and analysis
 - Contextual understanding of complex queries
@@ -152,11 +152,28 @@ chat.mcp.discovery.enabled - Auto-discover servers
 
 Based on comparative analysis in this repository:
 
-| Tool | Effectiveness | Best Use Case | Quality Score |
-|------|--------------|---------------|---------------|
-| **Perplexity** | Highest | Complex analysis, structured research | ⭐⭐⭐⭐⭐ |
-| **Brave Search** | High | Current info, broad coverage | ⭐⭐⭐⭐ |
-| **Fetch** | Good | Direct content access, specific URLs | ⭐⭐⭐ |
+### Research Tool Effectiveness Analysis
+
+#### Perplexity AI Research Tool
+- **Effectiveness:** Highest - Comprehensive analysis with structured output
+- **Best Use Case:** Complex technical analysis, architectural research, structured investigations
+- **Quality Score:** ⭐⭐⭐⭐⭐ (Excellent)
+- **Key Strengths:** Contextual understanding, source citations, technical depth
+- **Cross-References:** Detailed analysis in `research/tool-comparison-analysis.md`
+
+#### Brave Search Engine
+- **Effectiveness:** High - Broad coverage with current information
+- **Best Use Case:** Finding current developments, discovering new resources, wide-ranging searches
+- **Quality Score:** ⭐⭐⭐⭐ (Very Good)
+- **Key Strengths:** Source diversity, speed, current content discovery
+- **Cross-References:** Search strategies documented in `research/mcp-research-tools-comparison.md`
+
+#### Fetch Tool
+- **Effectiveness:** Good - Direct access to specific content
+- **Best Use Case:** Accessing known URLs, official documentation, specific content retrieval
+- **Quality Score:** ⭐⭐⭐ (Good)
+- **Key Strengths:** Raw content access, accuracy, no rate limits
+- **Cross-References:** Usage patterns in research workflow documentation
 
 ## 📊 Tool Usage Recommendations
 

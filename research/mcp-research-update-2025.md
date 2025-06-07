@@ -58,12 +58,57 @@ npx -y @modelcontextprotocol/server-memory
 
 **📊 Advanced Analytics Servers**
 
-| Server | Primary Use | Installation | Research Value |
-|--------|-------------|-------------|----------------|
-| **Neo4j MCP** | Graph Database | `npm install @neo4j/mcp-server` | Knowledge graphs, relationship analysis |
-| **Chroma MCP** | Vector Search | `pip install chromadb-mcp` | Semantic search, document analysis |
-| **Pinecone MCP** | AI Search | `npm install @pinecone/mcp-server` | Large-scale similarity search |
-| **Milvus MCP** | Vector DB | `docker run milvus/mcp-server` | Scalable AI applications |
+#### Neo4j MCP Server
+- **Primary Use:** Graph Database Management
+- **Installation:** `npm install @neo4j/mcp-server`
+- **Research Value:** Knowledge graphs, relationship analysis, network topology mapping
+- **Key Features:**
+  - Cypher query language support
+  - Graph visualization capabilities
+  - Complex relationship modeling
+  - Pattern detection algorithms
+- **Use Cases:** Academic research networks, citation analysis, social network studies
+- **Cross-References:** Graph database patterns in `complete-server-catalog.md`
+- **Documentation:** Neo4j integration guide in graph analytics section
+
+#### Chroma MCP Server
+- **Primary Use:** Vector Search & Embeddings
+- **Installation:** `pip install chromadb-mcp`
+- **Research Value:** Semantic search, document analysis, similarity matching
+- **Key Features:**
+  - High-dimensional vector storage
+  - Semantic similarity search
+  - Document embedding management
+  - Metadata filtering capabilities
+- **Use Cases:** Literature review automation, content discovery, research clustering
+- **Cross-References:** Vector search strategies in `research/ADVANCED_MCP_RESEARCH_2025.md`
+- **Documentation:** Chroma setup patterns for research workflows
+
+#### Pinecone MCP Server
+- **Primary Use:** AI-Powered Search Platform
+- **Installation:** `npm install @pinecone/mcp-server`
+- **Research Value:** Large-scale similarity search, recommendation systems
+- **Key Features:**
+  - Serverless vector database
+  - Real-time search capabilities
+  - Scalable infrastructure
+  - Advanced filtering options
+- **Use Cases:** Large-scale similarity search, recommendation engines, content matching
+- **Cross-References:** AI search implementation in `research/tool-comparison-analysis.md`
+- **Documentation:** Pinecone deployment for research applications
+
+#### Milvus MCP Server
+- **Primary Use:** Scalable Vector Database
+- **Installation:** `docker run milvus/mcp-server`
+- **Research Value:** Scalable AI applications, high-performance vector operations
+- **Key Features:**
+  - Horizontal scaling support
+  - Multiple vector index types
+  - Hybrid search capabilities
+  - GPU acceleration support
+- **Use Cases:** Large-scale AI research, image analysis, multimedia search
+- **Cross-References:** Scalable AI patterns in enterprise deployment guides
+- **Documentation:** Milvus cluster setup for research infrastructure
 
 ### Data Collection & Processing
 
@@ -93,20 +138,94 @@ npx -y @microsoft/playwright-mcp
 
 **☁️ Cloud Infrastructure Management**
 
-| Platform | Capabilities | Use Cases | Quality Score |
-|----------|-------------|-----------|---------------|
-| **AWS MCP** | EC2, S3, Lambda, CloudFormation | Infrastructure as code, resource management | ⭐⭐⭐⭐ |
-| **Azure MCP** | Storage, Cosmos DB, Functions | Microsoft ecosystem integration | ⭐⭐⭐⭐ |
-| **Cloudflare MCP** | Workers, KV, R2, D1 | Edge computing, global deployment | ⭐⭐⭐⭐⭐ |
+#### AWS MCP Server
+- **Platform:** Amazon Web Services
+- **Capabilities:** EC2 management, S3 storage operations, Lambda functions, CloudFormation templates
+- **Use Cases:** Infrastructure as code, automated resource management, cost optimization
+- **Quality Score:** ⭐⭐⭐⭐ (Comprehensive but complex setup)
+- **Key Features:**
+  - Multi-service integration
+  - IAM role-based security
+  - Cost tracking and optimization
+  - Automated scaling capabilities
+- **Cross-References:** Cloud deployment patterns in `research/ADVANCED_MCP_RESEARCH_2025.md`
+- **Documentation:** AWS integration guide in enterprise cloud section
+
+#### Azure MCP Server
+- **Platform:** Microsoft Azure
+- **Capabilities:** Storage accounts, Cosmos DB operations, Azure Functions, CLI access
+- **Use Cases:** Microsoft ecosystem integration, hybrid cloud deployments
+- **Quality Score:** ⭐⭐⭐⭐ (Strong Microsoft integration)
+- **Key Features:**
+  - Active Directory integration
+  - Hybrid cloud connectivity
+  - Enterprise compliance tools
+  - DevOps pipeline integration
+- **Cross-References:** Microsoft ecosystem in `complete-server-catalog.md`
+- **Documentation:** Azure setup patterns for enterprise environments
+
+#### Cloudflare MCP Server
+- **Platform:** Cloudflare Edge Computing
+- **Capabilities:** Workers deployment, KV storage, R2 object storage, D1 database
+- **Use Cases:** Edge computing, global deployment, performance optimization
+- **Quality Score:** ⭐⭐⭐⭐⭐ (Excellent performance and ease of use)
+- **Key Features:**
+  - Global edge network
+  - Serverless computing
+  - Built-in security features
+  - Real-time analytics
+- **Cross-References:** Edge computing strategies in performance optimization guides
+- **Documentation:** Cloudflare edge deployment for research applications
 
 **📋 Project Management Integration**
 
-| Tool | Focus Area | API Integration | Research Applications |
-|------|------------|----------------|----------------------|
-| **Linear MCP** | Issue Tracking | GraphQL API | Research task management |
-| **Notion MCP** | Documentation | REST API | Knowledge base organization |
-| **GitHub MCP** | Version Control | GitHub API v4 | Research code management |
-| **GitLab MCP** | DevOps | GitLab API | CI/CD for research pipelines |
+#### Linear MCP Server
+- **Tool Focus:** Issue Tracking & Project Management
+- **API Integration:** GraphQL API with real-time subscriptions
+- **Research Applications:** Research task management, milestone tracking, team coordination
+- **Key Features:**
+  - Real-time collaboration
+  - Advanced filtering and views
+  - Automated workflow triggers
+  - Integration with development tools
+- **Cross-References:** Project management workflows in `research/research-starter-pack.md`
+- **Documentation:** Linear setup for research team coordination
+
+#### Notion MCP Server
+- **Tool Focus:** Documentation & Knowledge Management
+- **API Integration:** REST API with database operations
+- **Research Applications:** Knowledge base organization, research documentation, collaborative notes
+- **Key Features:**
+  - Rich content editing
+  - Database functionality
+  - Template systems
+  - Cross-page linking
+- **Cross-References:** Documentation strategies in knowledge management guides
+- **Documentation:** Notion integration for research documentation workflows
+
+#### GitHub MCP Server
+- **Tool Focus:** Version Control & Collaboration
+- **API Integration:** GitHub API v4 (GraphQL) with comprehensive repository access
+- **Research Applications:** Research code management, version control, collaborative development
+- **Key Features:**
+  - Repository management
+  - Issue and PR automation
+  - CI/CD integration
+  - Code review workflows
+- **Cross-References:** Development workflows in `research/research-starter-pack.md`
+- **Documentation:** GitHub setup guide in version control section
+
+#### GitLab MCP Server
+- **Tool Focus:** DevOps & CI/CD
+- **API Integration:** GitLab API with pipeline management
+- **Research Applications:** CI/CD for research pipelines, automated testing, deployment automation
+- **Key Features:**
+  - Integrated CI/CD pipelines
+  - Container registry
+  - Security scanning
+  - Project management tools
+- **Cross-References:** DevOps patterns in `research/ADVANCED_MCP_RESEARCH_2025.md`
+- **Documentation:** GitLab CI/CD setup for research automation
 
 ### Financial & Business Automation
 
@@ -160,13 +279,13 @@ npm install @paddle/mcp-server
 3. **GitHub MCP** (⭐⭐⭐⭐⭐) - Code and documentation management
 4. **Fetch MCP** (⭐⭐⭐⭐⭐) - Web content acquisition
 
-**🥈 Tier 2: Specialized Research Tools**
+**Tier 2: Specialized Research Tools**
 1. **Puppeteer MCP** (⭐⭐⭐⭐) - Browser automation
 2. **Neo4j MCP** (⭐⭐⭐⭐) - Graph database operations
 3. **PostgreSQL MCP** (⭐⭐⭐⭐) - Structured data analysis
 4. **Notion MCP** (⭐⭐⭐⭐) - Documentation and knowledge management
 
-**🥉 Tier 3: Supportive Tools**
+**Tier 3: Supportive Tools**
 1. **Slack MCP** (⭐⭐⭐) - Team communication
 2. **Linear MCP** (⭐⭐⭐) - Project management
 3. **Time MCP** (⭐⭐⭐) - Temporal data handling

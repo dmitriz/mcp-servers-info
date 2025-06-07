@@ -34,12 +34,12 @@ This comprehensive report analyzes MCP (Model Context Protocol) servers in VS Co
 
 ### Step-by-Step Location Guide
 
-#### 1. **Enable MCP Support**
+#### **Enable MCP Support**
 ```
 File → Preferences → Settings → Search "chat.mcp.enabled" → Enable
 ```
 
-#### 2. **Access Approval Controls During Tool Execution**
+#### **Access Approval Controls During Tool Execution**
 ```
 1. Open Chat view: Ctrl+Alt+I (Windows/Linux) or ⌃⌘I (Mac)
 2. Select "Agent mode" from dropdown
@@ -47,22 +47,22 @@ File → Preferences → Settings → Search "chat.mcp.enabled" → Enable
 4. When tool is invoked → "Continue" button dropdown appears
 ```
 
-#### 3. **Approval Automation Options** (in Continue button dropdown)
+#### **Approval Automation Options** (in Continue button dropdown)
 - **"Continue for this session"** - Auto-approve until VS Code restart
 - **"Continue for this workspace"** - Auto-approve for current project only  
 - **"Continue for all future invocations"** - Global auto-approval
 
-#### 4. **Manage Configured Servers**
+#### **Manage Configured Servers**
 ```
 Command Palette (Ctrl+Shift+P) → Type "MCP: List Servers"
 ```
 
-#### 5. **Advanced Control via Configuration**
+#### **Advanced Control via Configuration**
 - **Workspace**: Create `.vscode/mcp.json` file
 - **Global**: Add to `settings.json` under "mcp" section
 - **Instructions**: Use `.github/copilot-instructions.md` for fine-tuning
 
-#### 6. **Enterprise/Organizational Settings**
+#### **Enterprise/Organizational Settings**
 ```
 Centrally manage via VS Code enterprise documentation
 Setting: chat.mcp.enabled (can be controlled organizationally)
