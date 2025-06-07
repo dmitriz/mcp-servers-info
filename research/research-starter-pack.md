@@ -2,7 +2,7 @@
 
 *A curated guide for researchers, academics, and knowledge workers to get started with MCP servers*
 
-## 🚀 Quick Start (5 Minutes)
+## 🚀 Quick Start
 
 ### Essential Research Setup
 
@@ -292,17 +292,17 @@ Create `.vscode/mcp.json` in your research project:
 
 ## 🚀 Common Research Workflows
 
-### Workflow 1: Academic Paper Analysis
+### Workflow: Academic Paper Analysis
 
 **Setup Time**: 10 minutes  
 **Servers**: Memory, Fetch, Sequential Thinking
 
 **Process:**
-1. Configure memory server for knowledge storage
-2. Use fetch server to collect academic papers
-3. Apply sequential thinking for systematic analysis
-4. Build citation networks in memory graph
-5. Generate research summaries and insights
+- Configure memory server for knowledge storage
+- Use fetch server to collect academic papers
+- Apply sequential thinking for systematic analysis
+- Build citation networks in memory graph
+- Generate research summaries and insights
 
 **Command Sequence:**
 ```bash
@@ -312,29 +312,29 @@ npx -y @modelcontextprotocol/server-fetch
 npx -y @modelcontextprotocol/server-sequential-thinking
 ```
 
-### Workflow 2: Market Intelligence Pipeline
+### Workflow: Market Intelligence Pipeline
 
 **Setup Time**: 15 minutes  
 **Servers**: Puppeteer, Memory, Brave Search, Linear
 
 **Process:**
-1. Set up automated data collection with Puppeteer
-2. Store findings in memory knowledge graph
-3. Use Brave Search for supplementary research
-4. Track research tasks with Linear integration
-5. Generate competitive analysis reports
+- Set up automated data collection with Puppeteer
+- Store findings in memory knowledge graph
+- Use Brave Search for supplementary research
+- Track research tasks with Linear integration
+- Generate competitive analysis reports
 
-### Workflow 3: Collaborative Research Project
+### Workflow: Collaborative Research Project
 
 **Setup Time**: 20 minutes  
 **Servers**: GitHub, Memory, Notion, Slack
 
 **Process:**
-1. Set up version control with GitHub integration
-2. Create shared knowledge base with Memory server
-3. Document findings with Notion integration
-4. Coordinate team communication via Slack
-5. Maintain research reproducibility
+- Set up version control with GitHub integration
+- Create shared knowledge base with Memory server
+- Document findings with Notion integration
+- Coordinate team communication via Slack
+- Maintain research reproducibility
 
 ## 🔧 Troubleshooting Common Issues
 
