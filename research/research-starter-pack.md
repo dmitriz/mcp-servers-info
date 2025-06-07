@@ -300,7 +300,7 @@ Create `.vscode/mcp.json` in your research project:
 - Brave Search MCP - Web search automation
 - Linear MCP - Project management integration
 - Slack MCP - Team communication
-- Time MCP - Research timeline management
+- Time MCP - Scheduling and calendar coordination
 
 ## 🚀 Common Research Workflows
 

@@ -16,7 +16,7 @@
 - **Background**: 5+ years R&D experience, AI/ML focus
 - **Role**: Technical lead transforming research into production systems
 - **Project Scope**: 3-5 concurrent research implementations
-- **Budget**: $1K-10K monthly for AI tools and infrastructure
+- **Budget**: Mid-tier resource allocation for AI tools and infrastructure
 - **Technical Skills**: Advanced AI/ML, research methodologies, TypeScript/Python
 
 #### Goals & Pain Points
@@ -121,7 +121,7 @@ npx -y @modelcontextprotocol/server-filesystem    # Secure file operations
 - **Background**: 2-8 years development experience, freelancer or startup
 - **Role**: Individual developer managing multiple personal projects
 - **Project Count**: 20-100 repositories across various technologies
-- **Budget**: $50-500/month for tools and services
+- **Budget**: Limited resource allocation for tools and services
 - **Technical Skills**: Full-stack development, modern web frameworks
 
 #### Goals & Pain Points
@@ -343,7 +343,7 @@ npx -y @modelcontextprotocol/server-slack         # Team reporting
 - **Compliance Achievement**: Regulatory requirement fulfillment rate
 - **Security Posture**: Risk reduction and audit readiness metrics
 - **Team Productivity**: Cross-functional project delivery speed
-- **Cost Efficiency**: Resource optimization and ROI measurement
+- **Cost Efficiency**: Resource optimization and value measurement
 
 #### Individual Personas
 - **Project Completion**: Personal project success and portfolio growth
