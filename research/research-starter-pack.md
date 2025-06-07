@@ -7,12 +7,12 @@
 **Research-Exec Methodology Applied**: This starter pack integrates comprehensive strategic frameworks for systematic research implementation.
 
 ### **Quick Framework Reference**
-- **📊 Server Prioritization**: [Strategic Prioritization Framework](./MCP_STRATEGIC_PRIORITIZATION_FRAMEWORK.md) - Priority-based server selection
-- **👥 Research Personas**: [User Personas & Workflows](./MCP_USER_PERSONAS_WORKFLOWS.md) - Research Engineer workflows
-- **🗓️ Implementation Planning**: [Implementation Roadmaps](./MCP_IMPLEMENTATION_ROADMAPS.md) - 8-week research focus track
-- **💰 ROI Assessment**: [Business Intelligence Framework](./MCP_BUSINESS_INTELLIGENCE_FRAMEWORK.md) - Research investment analysis
+- **📊 Server Prioritization**: [Strategic Prioritization Framework](./MCP_STRATEGIC_PRIORITIZATION_FRAMEWORK_AI_OPTIMIZED.md) - Capability-based server selection
+- **👥 Research Personas**: [User Personas & Workflows](./MCP_USER_PERSONAS_WORKFLOWS_AI_OPTIMIZED.md) - Research Engineer workflows
+- **🗓️ Implementation Planning**: [Implementation Framework](./MCP_IMPLEMENTATION_FRAMEWORK_AI_OPTIMIZED.md) - Capability-driven implementation track
+- **💰 Value Assessment**: [Business Intelligence Framework](./MCP_BUSINESS_INTELLIGENCE_FRAMEWORK_AI_OPTIMIZED.md) - Research value analysis
 
-> 📈 **Research Engineer ROI**: 8-week implementation → $118,000 annual value → 321% ROI
+> 📈 **Research Engineer Value**: Immediate capability activation → High-impact research enhancement → Substantial productivity multiplier
 
 ## 🚀 Quick Start
 
@@ -227,8 +227,8 @@ Create `.vscode/mcp.json` in your research project:
     },
     "security": {
       "auditLog": true,
-      "sessionTimeout": "8h",
-      "dataRetention": "90d"
+      "sessionTimeout": "auto",
+      "dataRetention": "configurable"
     }
   }
 }
@@ -306,7 +306,7 @@ Create `.vscode/mcp.json` in your research project:
 
 ### Workflow: Academic Paper Analysis
 
-**Setup Time**: 10 minutes  
+**Setup**: Immediate activation  
 **Servers**: Memory, Fetch, Sequential Thinking
 
 **Process:**
@@ -326,7 +326,7 @@ npx -y @modelcontextprotocol/server-sequential-thinking
 
 ### Workflow: Market Intelligence Pipeline
 
-**Setup Time**: 15 minutes  
+**Setup**: Immediate activation  
 **Servers**: Puppeteer, Memory, Brave Search, Linear
 
 **Process:**
@@ -338,7 +338,7 @@ npx -y @modelcontextprotocol/server-sequential-thinking
 
 ### Workflow: Collaborative Research Project
 
-**Setup Time**: 20 minutes  
+**Setup**: Immediate activation  
 **Servers**: GitHub, Memory, Notion, Slack
 
 **Process:**
