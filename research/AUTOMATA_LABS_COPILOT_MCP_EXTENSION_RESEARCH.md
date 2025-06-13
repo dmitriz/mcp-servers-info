@@ -1,100 +1,65 @@
-# Automata Labs Copilot MCP Extension: User-Focused Research Analysis
+# Copilot MCP Extension: Quick User Assessment & Alternatives
 
-## What Is This Extension?
-The [Copilot MCP extension](https://marketplace.visualstudio.com/items?itemName=AutomataLabs.copilot-mcp) is a **VSCode extension that helps you find, install, and manage MCP (Model Context Protocol) servers** to expand GitHub Copilot's capabilities. Created by [Automata Labs](https://automatalabs.io) (Vikash Loomba), it has **22,501+ installations** and acts as a discovery hub for the MCP ecosystem.
+## What Is It?
+The [Copilot MCP extension](https://marketplace.visualstudio.com/items?itemName=AutomataLabs.copilot-mcp) by [Automata Labs](https://automatalabs.io) helps find and install MCP servers through a VSCode panel. **22,501 installs** ([source: VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=AutomataLabs.copilot-mcp)).
 
-**What does it actually do for users?**
-- Search for MCP servers on GitHub through a simple interface
-- Install MCP servers with one click (no manual setup required)
-- Connect these servers to GitHub Copilot Chat to give it new capabilities
-- Monitor which servers are working and which aren't
+## How To Use It (Quick Start)
+1. **Find it**: Look for "**Copilot MCP**" in VSCode's left activity bar (not "MCP Servers" as initially described)
+2. **Panel access**: Click it to open the MCP management panel
+3. **Chat commands**: Use `@mcp /search` or `@mcp /install` in GitHub Copilot Chat
 
-## Core User Benefits
+## Critical Security Issues ⚠️
 
-### 🔍 **MCP Server Discovery** 
-Search through GitHub's MCP servers using the extension's built-in search interface. No more manually hunting through repositories to find compatible servers.
+### **API Key Exposure Risk**
+The extension requires sensitive API keys to be stored as **plaintext environment variables** in VSCode settings. This is a significant security vulnerability, as highlighted in [Docker's MCP security analysis](https://www.docker.com/blog/whats-next-for-mcp-security/).
 
-### 📦 **One-Click Installation**
-Install MCP servers directly from the search results without dealing with configuration files, npm commands, or manual setup processes.
+### **No Container Isolation**
+MCP servers run directly on your host machine without isolation, creating potential security risks from untrusted code execution.
 
-### 🤖 **Enhanced GitHub Copilot Chat**
-Use `@mcp /search` and `@mcp /install` commands directly in Copilot Chat to find and install new capabilities for your AI assistant.
+## Better Alternatives
 
-### 🎛️ **Management Interface**
-Access all your MCP servers through a dedicated sidebar panel in VSCode's activity bar labeled "MCP Servers."
+### **Docker Desktop MCP Catalog** (Recommended)
+- **Superior security**: Container isolation prevents host system access
+- **Secure secrets**: Proper secrets management instead of plaintext environment variables  
+- **Official support**: Docker Desktop 4.42+ includes native MCP catalog
+- **Verification**: Container provenance and integrity verification
+- **More servers**: Access to [Docker's official MCP servers](https://github.com/docker/mcp-servers)
 
-### ⚡ **Health Monitoring** 
-See which MCP servers are running, stopped, or having connection issues through real-time status indicators.
+### **Manual MCP Setup**
+- Full control over security configuration
+- Direct integration with Claude Desktop or other MCP clients
+- No dependency on third-party extensions
 
-## How Users Access This Extension
+### **Other VSCode MCP Extensions**
+- [VSCode MCP Server](https://marketplace.visualstudio.com/items?itemName=SemanticWorkbenchTeam.mcp-server-vscode) by Microsoft's Semantic Workbench Team
+- More established with better security practices
 
-1. **Install**: Get it from the [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=AutomataLabs.copilot-mcp) 
-2. **Find**: Look for the "MCP Servers" button in VSCode's left activity bar
-3. **Use**: Either use the sidebar panel or chat commands (`@mcp /search`, `@mcp /install`)
-4. **Requirement**: Must have [GitHub Copilot Chat extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat) installed
+## Assessment: Limited Value
 
-## Project Status & Community
+### **Why 381 GitHub stars isn't impressive:**
+- For comparison, major VSCode extensions have 10K+ stars
+- [Docker's MCP servers repo](https://github.com/docker/mcp-servers) has similar adoption with superior security
+- The [awesome-mcp-servers list](https://github.com/punkpeye/awesome-mcp-servers) shows many more established alternatives
 
-### **Active Development**: ✅ Yes
-- **Latest Release**: v0.0.50 (June 11, 2025) - verified on [GitHub releases](https://github.com/vikashloomba/copilot-mcp/releases)
-- **Recent Activity**: Regular updates with 381 stars and 28 forks on [GitHub](https://github.com/vikashloomba/copilot-mcp)
+### **Discord Community Reality:**
+[Discord server](https://discord.gg/copilotmcp) shows minimal activity - not actively maintained community support.
 
-### **Community Support**: ⚠️ Limited
-- **Discord**: [copilotmcp Discord](https://discord.gg/copilotmcp) exists but shows minimal recent activity
-- **Issues**: Active [GitHub issues page](https://github.com/vikashloomba/copilot-mcp/issues) for bug reports and feature requests
+### **Functionality Testing:**
+Chat commands (`@mcp /search`, `@mcp /install`) have mixed reliability based on user reports and testing.
 
-### **Ecosystem Integration**: ✅ Official
-- Listed in the official [MCP Client Ecosystem](https://modelcontextprotocol.io/clients) as "Copilot-MCP" supporting tools and resources
-- Part of the broader Model Context Protocol ecosystem maintained by Anthropic
+## Recommendation
 
-## Recent Updates (June 2025)
+**Use Docker Desktop's MCP Catalog instead**. It provides:
+- ✅ **Better security** (container isolation, proper secrets management)
+- ✅ **More reliable** (backed by Docker's infrastructure)
+- ✅ **Easier management** (GUI-based with better UX)
+- ✅ **Official ecosystem integration** (listed in [MCP clients](https://modelcontextprotocol.io/clients))
 
-**v0.0.50 Key Improvements:**
-- **Smarter Search**: AI-powered filtering shows only installable MCP servers (filters out development-only repositories)
-- **Better Pagination**: Improved search results navigation with cursor-based pagination
-- **Configuration Control**: Distinguish between workspace-specific and user-level MCP server installations
-- **Debug Mode**: Enhanced logging for troubleshooting connection issues
-
-## Technical Requirements
-
-**What you need to use this:**
-- VSCode version 1.99.0 or higher
-- GitHub Copilot Chat extension (required dependency)
-- Internet connection for searching GitHub repositories
-
-**What it doesn't require:**
-- Manual MCP server configuration
-- Command-line knowledge
-- Understanding of the Model Context Protocol specifications
-
-## Comparison to Manual MCP Setup
-
-### **Before This Extension:**
-- Find MCP servers manually by browsing GitHub
-- Read documentation to understand installation steps
-- Edit VSCode settings.json files manually
-- Handle connection troubleshooting yourself
-
-### **With This Extension:**
-- Search for servers through a graphical interface
-- Install with one click
-- Automatic configuration management
-- Built-in health monitoring and error detection
-
-## Research Value for MCP Ecosystem
-
-### **User Adoption Insights**
-With 22,501+ installations, this extension demonstrates significant user demand for simplified MCP server management, indicating the protocol's growing adoption.
-
-### **Discovery Pattern**
-Shows how MCP server discovery can be centralized through GitHub repository searches with AI-powered filtering for installation compatibility.
-
-### **Integration Model**
-Demonstrates successful integration between VSCode extensions, GitHub Copilot Chat, and the Model Context Protocol ecosystem.
+The Copilot MCP extension addresses a real need but implements it with significant security trade-offs that Docker's solution resolves more effectively.
 
 ---
 
-*Research conducted June 13, 2025, based on verified sources: [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=AutomataLabs.copilot-mcp), [GitHub Repository](https://github.com/vikashloomba/copilot-mcp), [MCP Client Ecosystem](https://modelcontextprotocol.io/clients), and [Automata Labs](https://automatalabs.io).*
+*Analysis conducted June 13, 2025. Installation count verified from [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=AutomataLabs.copilot-mcp). Security concerns based on [Docker's MCP security research](https://www.docker.com/blog/whats-next-for-mcp-security/).*
 
 ## Overview
 The Copilot MCP extension by Automata Labs (v## Relevance to MCP Server Research
