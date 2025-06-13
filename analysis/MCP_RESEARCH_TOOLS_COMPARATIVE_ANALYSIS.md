@@ -22,9 +22,7 @@
 ## 📊 Tool-by-Tool Performance Analysis
 
 ### 1. Brave Search MCP Tool
-**Query**: "Documentation redundancy management framework consolidation best practices"  
-*Note: The same primary query was used as defined in the methodology section to ensure consistency across all tool evaluations.*
-
+**Query**: "MCP server redundancy analysis best practices documentation maintenance"  
 **Results**: 5 results returned
 
 #### Performance Rating: ⭐⭐⭐ (Good)
@@ -39,8 +37,7 @@
 - ⚠️ Limited depth on best practices for redundancy management
 - ⚠️ Mixed relevance (some results about network redundancy vs. documentation redundancy)
 
-**Key Finding**: One highly relevant result about MCP server maintenance documentation practices  
-**Results**: 5 results returned
+**Key Finding**: One highly relevant result about MCP server maintenance documentation practices
 
 ### 2. Perplexity MCP Tool  
 **Query**: "Best practices for managing documentation redundancy in technical projects"  

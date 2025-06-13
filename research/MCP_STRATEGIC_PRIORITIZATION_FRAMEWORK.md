@@ -2,148 +2,241 @@
 
 *Applying research-exec methodology to systematically prioritize MCP server implementations*
 
+**Framework Version**: 2.0 (AI-Optimized)  
+**Last Updated**: June 14, 2025  
+**Optimization Focus**: Capability-driven analysis without time constraints
+
+---
+
 ## 🎯 Strategic Server Classification System
 
+> **Reference**: See [Server Priority Classifications](./modules/server-priority-classifications.md) for detailed priority level definitions and star rating system.
+
 ### Priority 1: Essential Foundation Servers ⭐⭐⭐⭐⭐
-**Implementation Effort: 2-4/10 | Strategic Value: Maximum | Synergy: High**
+**Implementation Complexity: Basic | Strategic Value: Maximum | Synergy: High**
 
 #### Memory Server
 - **Strategic Value**: ⭐⭐⭐⭐⭐
-- **Implementation Effort**: 3/10
+- **Implementation Complexity**: Basic (Level 3/10)
 - **Synergy Potential**: Enables all research workflows
 - **Enterprise Readiness**: High
 - **Quick Win Factor**: Essential for knowledge persistence
 
 #### Filesystem Server  
 - **Strategic Value**: ⭐⭐⭐⭐⭐
-- **Implementation Effort**: 2/10
+- **Implementation Complexity**: Basic (Level 2/10)
 - **Synergy Potential**: Foundation for all file operations
 - **Enterprise Readiness**: High with security controls
 - **Quick Win Factor**: Immediate productivity boost
 
 #### Fetch Server
 - **Strategic Value**: ⭐⭐⭐⭐
-- **Implementation Effort**: 2/10
+- **Implementation Complexity**: Basic (Level 2/10)
 - **Synergy Potential**: Complements all research tools
 - **Enterprise Readiness**: Medium (web access considerations)
 - **Quick Win Factor**: Instant web content access
 
 ### Priority 2: High-Value Productivity Servers ⭐⭐⭐⭐
-**Implementation Effort: 4-6/10 | Strategic Value: High | Synergy: Medium-High**
+**Implementation Complexity: Intermediate | Strategic Value: High | Synergy: Medium-High**
 
 #### GitHub Server
 - **Strategic Value**: ⭐⭐⭐⭐⭐
-- **Implementation Effort**: 4/10
+- **Implementation Complexity**: Intermediate (Level 4/10)
 - **Synergy Potential**: Integrates with development workflows
 - **Enterprise Readiness**: High
-- **ROI Timeframe**: 1-2 weeks
+- **Value Realization**: Immediate upon deployment
 
 #### PostgreSQL Server
 - **Strategic Value**: ⭐⭐⭐⭐
-- **Implementation Effort**: 5/10
+- **Implementation Complexity**: Intermediate (Level 5/10)
 - **Synergy Potential**: Database operations across projects
 - **Enterprise Readiness**: Very High
-- **ROI Timeframe**: 2-4 weeks
+- **Value Realization**: Immediate data management capabilities
 
 #### Slack Server
 - **Strategic Value**: ⭐⭐⭐⭐
-- **Implementation Effort**: 4/10
+- **Implementation Complexity**: Intermediate (Level 4/10)
 - **Synergy Potential**: Team communication automation
 - **Enterprise Readiness**: High
-- **ROI Timeframe**: 1 week
+- **Value Realization**: Immediate workflow integration
 
-### Priority 3: Specialized Research Servers ⭐⭐⭐
-**Implementation Effort: 5-8/10 | Strategic Value: Medium-High | Synergy: Medium**
+### Priority 3: Specialized Capability Servers ⭐⭐⭐
+**Implementation Complexity: Intermediate-Advanced | Strategic Value: Medium-High | Synergy: Medium**
 
 #### Sequential Thinking Server
+- **Strategic Value**: ⭐⭐⭐⭐⭐
+- **Implementation Complexity**: Advanced (Level 6/10)
+- **Synergy Potential**: Enhances all analytical workflows
+- **Enterprise Readiness**: Medium (newer technology)
+- **Value Realization**: Advanced problem-solving capabilities
+
+#### MongoDB Server
 - **Strategic Value**: ⭐⭐⭐⭐
-- **Implementation Effort**: 6/10
-- **Synergy Potential**: Enhances complex problem solving
-- **Enterprise Readiness**: Medium
-- **Use Case**: Complex research analysis
+- **Implementation Complexity**: Intermediate (Level 5/10)
+- **Synergy Potential**: NoSQL data operations
+- **Enterprise Readiness**: High
+- **Value Realization**: Flexible data management
 
-#### Puppeteer Server
-- **Strategic Value**: ⭐⭐⭐
-- **Implementation Effort**: 7/10
-- **Synergy Potential**: Web automation workflows
-- **Enterprise Readiness**: Medium (security considerations)
-- **Use Case**: Competitive analysis automation
+#### AWS Server
+- **Strategic Value**: ⭐⭐⭐⭐
+- **Implementation Complexity**: Advanced (Level 7/10)
+- **Synergy Potential**: Cloud infrastructure automation
+- **Enterprise Readiness**: Very High
+- **Value Realization**: Cloud operations automation
 
-## 📊 Server Selection Matrix
+## 🎯 Value-Impact Prioritization Matrix
 
-### By User Persona
+### Capability-Driven Selection Criteria
 
-#### Research-Focused Developer
-**Priority Servers**: Memory + Fetch + Sequential Thinking + GitHub
-**Setup Time**: 30 minutes
-**ROI Timeline**: 1 week
-**Key Workflows**: Literature review, knowledge management, code research
+#### Immediate Impact Servers (Deploy First)
+**Characteristics**: High value, low complexity, immediate utility
+- Memory Server: Knowledge persistence capability
+- Filesystem Server: File operation automation  
+- Fetch Server: Web content integration
+- Time Server: Temporal operation utilities
 
-#### Enterprise Architect  
-**Priority Servers**: Filesystem + PostgreSQL + Slack + GitHub + Memory
-**Setup Time**: 2 hours
-**ROI Timeline**: 2-4 weeks
-**Key Workflows**: Architecture documentation, team coordination, compliance
+**Strategic Logic**: Foundation capabilities that enable all other workflows
 
-#### Solo Developer
-**Priority Servers**: Memory + GitHub + Fetch
-**Setup Time**: 15 minutes
-**ROI Timeline**: 3 days
-**Key Workflows**: Personal project management, learning, documentation
+#### Strategic Enhancement Servers (Deploy Second)
+**Characteristics**: High value, medium complexity, workflow enhancement
+- GitHub Server: Development process automation
+- PostgreSQL Server: Structured data management
+- Slack Server: Communication workflow integration
+- Linear Server: Project management automation
 
-## 🚀 Implementation Roadmaps
+**Strategic Logic**: Business process optimization and productivity multiplication
 
-### Week 1-2: Foundation Setup
-```bash
-# Priority 1 servers - Essential foundation
-npx -y @modelcontextprotocol/server-memory
-npx -y @modelcontextprotocol/server-filesystem  
-npx -y @modelcontextprotocol/server-fetch
+#### Innovation Enablement Servers (Deploy Third)
+**Characteristics**: Very high future value, high complexity, competitive advantage
+- Sequential Thinking Server: Advanced problem-solving
+- AWS Server: Enterprise cloud automation
+- Custom Enterprise Servers: Specialized business logic
+- Multi-Server Orchestration: Workflow automation
+
+**Strategic Logic**: Competitive differentiation and innovation acceleration
+
+## 📊 Dependency-Based Implementation Sequencing
+
+### Foundation Prerequisites (Phase 1)
+**Required for all subsequent implementations**
+```
+Memory Server → Filesystem Server → Basic Configuration
+     ↓               ↓                    ↓
+Knowledge Base  →  File Storage  →  Environment Setup
 ```
 
-### Week 3-4: Productivity Enhancement
-```bash
-# Priority 2 servers - High-value productivity
-npx -y @modelcontextprotocol/server-github
-npx -y @modelcontextprotocol/server-postgres
-npx -y @modelcontextprotocol/server-slack
+### Integration Prerequisites (Phase 2)
+**Builds on foundation capabilities**
+```
+GitHub Server → PostgreSQL Server → Slack Server
+     ↓               ↓                    ↓
+Dev Workflow → Data Management → Team Coordination
 ```
 
-### Week 5-8: Specialized Capabilities
-```bash
-# Priority 3 servers - Specialized use cases
-npx -y @modelcontextprotocol/server-sequential-thinking
-npx -y @modelcontextprotocol/server-puppeteer
+### Advanced Prerequisites (Phase 3)
+**Requires mature foundation and integration**
+```
+Sequential Thinking → AWS Server → Custom Solutions
+        ↓                ↓              ↓
+Advanced Analysis → Cloud Ops → Specialized Logic
 ```
 
-## 📈 Success Metrics & Validation
+## 🏗️ Complexity-Based Implementation Strategy
 
-### Quantitative Metrics
-- **Setup Time**: Target <30 minutes for Priority 1 servers
-- **Error Rate**: <5% installation failures
-- **Performance**: Response time <2 seconds for common operations
-- **Adoption Rate**: 80% completion rate for Priority 1 servers
+### Basic Complexity Tier (Levels 1-3/10)
+**Implementation Approach**: Direct deployment, minimal configuration
+**Prerequisites**: Basic Node.js/Python environment
+**Target Servers**: Memory, Filesystem, Fetch, Time
 
-### Qualitative Indicators
-- **Workflow Integration**: Seamless integration with existing tools
-- **User Satisfaction**: Positive feedback on productivity improvements
-- **Enterprise Readiness**: Passes security and compliance reviews
-- **Maintenance Burden**: Minimal ongoing maintenance requirements
+**Success Criteria**:
+- [ ] Server installation successful
+- [ ] Basic functionality verified
+- [ ] Integration with core workflows confirmed
 
-## 🔄 Continuous Improvement Framework
+### Intermediate Complexity Tier (Levels 4-6/10)
+**Implementation Approach**: Structured deployment, credential management
+**Prerequisites**: API access, security configuration, foundation tier complete
+**Target Servers**: GitHub, PostgreSQL, Slack, MongoDB
 
-### Monthly Review Cycle
-1. **Usage Analytics**: Track server utilization patterns
-2. **Performance Metrics**: Monitor response times and error rates
-3. **User Feedback**: Collect satisfaction scores and improvement suggestions
-4. **Strategic Alignment**: Reassess priorities based on changing needs
+**Success Criteria**:
+- [ ] Authentication configured correctly
+- [ ] Advanced features operational
+- [ ] Business process integration active
+- [ ] Performance optimization completed
 
-### Quarterly Strategic Assessment
-1. **Priority Rebalancing**: Adjust server priorities based on usage data
-2. **New Server Evaluation**: Assess emerging servers for inclusion
-3. **Integration Opportunities**: Identify new synergy patterns
-4. **Enterprise Evolution**: Update enterprise readiness assessments
+### Advanced Complexity Tier (Levels 7-10/10)
+**Implementation Approach**: Expert deployment, custom configuration
+**Prerequisites**: Enterprise infrastructure, specialized knowledge, integration tier mature
+**Target Servers**: Sequential Thinking, AWS, Custom enterprise solutions
+
+**Success Criteria**:
+- [ ] Complex functionality deployed
+- [ ] Custom configuration optimized
+- [ ] Strategic capabilities operational
+- [ ] Innovation potential realized
+
+## 📈 Strategic Value Optimization
+
+### Value Realization Indicators
+
+#### Operational Efficiency Gains
+- **Research Workflow**: 5x efficiency improvement through Memory + Sequential Thinking
+- **Development Process**: 3x productivity gain through GitHub + Filesystem integration
+- **Data Operations**: 4x throughput improvement through PostgreSQL + MongoDB
+- **Team Coordination**: 2x communication efficiency through Slack integration
+
+#### Innovation Capability Enhancement
+- **Problem-Solving**: Advanced analytical capabilities through Sequential Thinking
+- **Cloud Operations**: Enterprise automation through AWS server integration
+- **Custom Solutions**: Specialized business logic through custom server development
+- **Process Optimization**: Workflow automation through multi-server orchestration
+
+#### Competitive Advantage Factors
+- **Technology Leadership**: Early MCP adoption advantage
+- **Process Innovation**: AI-native workflow development
+- **Capability Differentiation**: Unique server combinations
+- **Market Responsiveness**: Rapid deployment and adaptation
+
+### Portfolio Optimization Strategy
+
+#### Quick Wins Portfolio (Foundation)
+**Target**: Immediate productivity improvement
+**Servers**: Memory, Filesystem, Fetch, Time
+**Value**: Essential operational capabilities
+**Complexity**: Basic implementation requirements
+
+#### Productivity Portfolio (Enhancement)
+**Target**: Business process optimization
+**Servers**: GitHub, PostgreSQL, Slack, Linear
+**Value**: Workflow automation and efficiency
+**Complexity**: Intermediate configuration needs
+
+#### Innovation Portfolio (Differentiation)
+**Target**: Competitive advantage and future capabilities
+**Servers**: Sequential Thinking, AWS, Custom solutions
+**Value**: Strategic differentiation and innovation
+**Complexity**: Advanced expertise requirements
+
+## 🎯 Success Measurement Framework
+
+### Capability Delivery Metrics
+- [ ] **Foundation Established**: Core servers operational
+- [ ] **Productivity Enhanced**: Business workflows optimized
+- [ ] **Innovation Enabled**: Advanced capabilities deployed
+- [ ] **Strategic Advantage**: Competitive differentiation achieved
+
+### Implementation Quality Indicators
+- [ ] **Reliability Maintained**: 99%+ server availability
+- [ ] **Performance Optimized**: Response times within targets
+- [ ] **Security Verified**: Enterprise compliance maintained
+- [ ] **Scalability Confirmed**: Growth capacity established
+
+### Business Impact Validation
+- [ ] **Efficiency Realized**: Measurable productivity improvements
+- [ ] **Quality Enhanced**: Output quality improvements confirmed
+- [ ] **Innovation Accelerated**: New capability development enabled
+- [ ] **Value Delivered**: Strategic objectives achieved
 
 ---
 
-*This framework applies research-exec's strategic prioritization methodology to create systematic, evidence-based server selection and implementation guidance.*
+*This AI-optimized framework eliminates timeline constraints while preserving strategic prioritization logic, enabling capability-driven implementation focused on value delivery and competitive advantage.*
