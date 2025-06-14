@@ -1,52 +1,41 @@
-# MCP Research Tools Comparison
+# MCP Research Tools Comparison - DEPRECATED
 
-*Quick analysis of effectiveness for Model Context Protocol research*
+⚠️ **This file has been superseded by the comprehensive effectiveness report**
 
-## Detailed Tool Analysis
+## 📊 Current Analysis
 
-### Perplexity AI Research Tool
+For the most up-to-date and comprehensive analysis of MCP research tools, please see:
 
-**Primary Strengths:**
-- **Structured Analysis:** Provides comprehensive, well-organized technical analysis
-- **Technical Depth:** Excellent for understanding complex architectural concepts
-- **Source Citations:** Reliable source attribution and verification
-- **Contextual Understanding:** Strong ability to synthesize information from multiple sources
+**[MCP Research Tools Effectiveness Report 2025](./mcp-research-tools-effectiveness-report-2025.md)**
 
-**Key Weaknesses:**
-- **Verbosity:** Can provide overly detailed responses for simple queries
-- **Latency Issues:** May experience delays for complex technical questions
-- **Update Lag:** Sometimes lacks the very latest developments
+This new report includes:
+- ✅ Parallel testing methodology
+- ✅ Quantitative performance metrics  
+- ✅ Tier-based effectiveness rankings
+- ✅ Detailed tool combinations and workflows
+- ✅ Research best practices
+- ✅ Implementation recommendations
 
-**Optimal Use Cases:**
-- Deep technical understanding of MCP architecture
-- Comprehensive analysis of implementation patterns
-- Architectural decision-making support
-- Complex problem-solving scenarios
+## 🔄 Migration Guide
 
-**Cross-References:** Performance analysis detailed in `tool-comparison-analysis.md`
+The new report provides much more detailed analysis:
 
-### Brave Search Engine
+### Old Analysis → New Report Section
+- **Tool Strengths/Weaknesses** → **Detailed Tool Analysis**  
+- **Use Cases** → **Optimal Use Cases** + **Workflow Recommendations**
+- **Performance Notes** → **Performance Metrics** (quantified)
 
-**Primary Strengths:**
-- **Source Diversity:** Accesses wide range of technical sources and repositories
-- **Speed:** Quick results for immediate research needs
-- **Discovery Capabilities:** Excellent for finding new MCP developments
-- **Current Content:** Good at surfacing latest community contributions
+### Key Improvements in New Report
+1. **Parallel Testing**: All tools tested simultaneously for fair comparison
+2. **Quantitative Metrics**: Numerical scores for speed, accuracy, depth, citations
+3. **Tier System**: Clear ranking of tool effectiveness for research
+4. **Workflow Optimization**: Specific tool combinations for different research types
+5. **Best Practices**: Research methodology recommendations
 
-**Key Weaknesses:**
-- **Output Structure:** Less organized results requiring manual curation
-- **Filtering Required:** Results need significant manual relevance filtering
-- **Variable Quality:** Inconsistent source quality and technical accuracy
+---
 
-**Optimal Use Cases:**
-- Discovering specific MCP resources and repositories
-- Finding latest community developments and announcements
-- Locating official documentation and SDK updates
-- Identifying emerging MCP server implementations
-
-**Cross-References:** Search effectiveness metrics in `research/tool-comparison-analysis.md`
-
-### Direct URL Fetch Tool
+**Deprecated**: June 14, 2025  
+**Replaced By**: [mcp-research-tools-effectiveness-report-2025.md](./mcp-research-tools-effectiveness-report-2025.md)
 
 **Primary Strengths:**
 - **Raw Content Access:** Direct access to unfiltered source material
